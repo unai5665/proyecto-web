@@ -23,6 +23,7 @@ main {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Footer */
 .footer {
     background-color: #222;
@@ -65,6 +66,8 @@ main {
     color: #fff;
 }
 =======
+=======
+>>>>>>> header
 /* ===== ESTILOS HEADER ===== */
 header {
     background-color: #1e3a8a; /* azul oscuro */
@@ -95,4 +98,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #38bdf8; /* celeste */
 }
+<<<<<<< HEAD
 >>>>>>> f5250d1 (Header con estilos)
+=======
+>>>>>>> header
