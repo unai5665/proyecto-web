@@ -22,6 +22,7 @@ main {
     padding: 2rem;
 }
 
+<<<<<<< HEAD
 /* Footer */
 .footer {
     background-color: #222;
@@ -63,3 +64,35 @@ main {
 .footer a:hover {
     color: #fff;
 }
+=======
+/* ===== ESTILOS HEADER ===== */
+header {
+    background-color: #1e3a8a; /* azul oscuro */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #facc15; /* amarillo */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #38bdf8; /* celeste */
+}
+>>>>>>> f5250d1 (Header con estilos)
