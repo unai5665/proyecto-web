@@ -1,0 +1,54 @@
+/* Reset y estructura base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenido principal ocupa el espacio restante */
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* ===== ESTILOS HEADER ===== */
+header {
+    background-color: #1e3a8a; /* azul oscuro */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #facc15; /* amarillo */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #38bdf8; /* celeste */
+}
